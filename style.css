@@ -1,0 +1,55 @@
+
+
+.lifestyle{
+    color: #7D7D7D;
+font-family: Playfair Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.lifestyle:hover{
+    color: #03A9F4;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.event-item:nth-child(even){
+    background-color: mediumaquamarine;
+    width: 370px;
+}
+
+.event-item:nth-child(odd){
+    background-color: cadetblue;
+    width: 370px;
+}
+
+.event-item:first-child{
+    background-color: rgb(83, 61, 61);
+    width: 370px;
+}
+
+.button:focus{
+    outline: none;
+    border: 10px solid cadetblue;}
+
+
+
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
