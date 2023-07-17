@@ -1,7 +1,7 @@
 
 
 .lifestyle{
-    color: #7D7D7D;
+  color: grey;
 font-family: Playfair Display;
 font-size: 14px;
 font-style: normal;
@@ -9,10 +9,9 @@ font-weight: 400;
 line-height: normal;
 
 }
+.lifestyle:hover{color: blue;}
 
-.lifestyle:hover{
-    color: #03A9F4;
-}
+
 
 ul,ol{
     list-style: none;
@@ -23,7 +22,7 @@ a{
 }
 
 
-
+/* event-item */
 .event-item:nth-child(even){
     background-color: mediumaquamarine;
     width: 370px;
@@ -39,6 +38,8 @@ a{
     width: 370px;
 }
 
+img{width: 370px;}
+
 .button:focus{
     outline: none;
     border: 10px solid cadetblue;}
@@ -53,3 +54,5 @@ body{
     font-size: 16px;
     line-height: 24px;
 }
+
+
