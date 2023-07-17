@@ -38,7 +38,7 @@ a{
     width: 370px;
 }
 
-img{width: 370px;}
+.img{width: 370px;}
 
 .button:focus{
     outline: none;
